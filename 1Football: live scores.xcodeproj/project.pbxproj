@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8F30B1B2B75379200DFE94F /* _Football__live_scoresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30B1A2B75379200DFE94F /* _Football__live_scoresApp.swift */; };
+		E8F30B1D2B75379200DFE94F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30B1C2B75379200DFE94F /* ContentView.swift */; };
+		E8F30B1F2B75379400DFE94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F30B1E2B75379400DFE94F /* Assets.xcassets */; };
+		E8F30B232B75379400DFE94F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F30B222B75379400DFE94F /* Preview Assets.xcassets */; };
+		E8F30B2D2B75379400DFE94F /* _Football__live_scoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30B2C2B75379400DFE94F /* _Football__live_scoresTests.swift */; };
+		E8F30B372B75379400DFE94F /* _Football__live_scoresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30B362B75379400DFE94F /* _Football__live_scoresUITests.swift */; };
+		E8F30B392B75379400DFE94F /* _Football__live_scoresUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F30B382B75379400DFE94F /* _Football__live_scoresUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F30B292B75379400DFE94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F30B0F2B75379200DFE94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F30B162B75379200DFE94F;
+			remoteInfo = "1Football: live scores";
+		};
+		E8F30B332B75379400DFE94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F30B0F2B75379200DFE94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F30B162B75379200DFE94F;
+			remoteInfo = "1Football: live scores";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8F30B172B75379200DFE94F /* 1Football: live scores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1Football: live scores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F30B1A2B75379200DFE94F /* _Football__live_scoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Football__live_scoresApp.swift; sourceTree = "<group>"; };
+		E8F30B1C2B75379200DFE94F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8F30B1E2B75379400DFE94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8F30B202B75379400DFE94F /* _Football__live_scores.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _Football__live_scores.entitlements; sourceTree = "<group>"; };
+		E8F30B222B75379400DFE94F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8F30B282B75379400DFE94F /* 1Football: live scoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1Football: live scoresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F30B2C2B75379400DFE94F /* _Football__live_scoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Football__live_scoresTests.swift; sourceTree = "<group>"; };
+		E8F30B322B75379400DFE94F /* 1Football: live scoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1Football: live scoresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F30B362B75379400DFE94F /* _Football__live_scoresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Football__live_scoresUITests.swift; sourceTree = "<group>"; };
+		E8F30B382B75379400DFE94F /* _Football__live_scoresUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Football__live_scoresUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8F30B142B75379200DFE94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B252B75379400DFE94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B2F2B75379400DFE94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8F30B0E2B75379200DFE94F = {
+			isa = PBXGroup;
+			children = (
+				E8F30B192B75379200DFE94F /* 1Football: live scores */,
+				E8F30B2B2B75379400DFE94F /* 1Football: live scoresTests */,
+				E8F30B352B75379400DFE94F /* 1Football: live scoresUITests */,
+				E8F30B182B75379200DFE94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F30B182B75379200DFE94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F30B172B75379200DFE94F /* 1Football: live scores.app */,
+				E8F30B282B75379400DFE94F /* 1Football: live scoresTests.xctest */,
+				E8F30B322B75379400DFE94F /* 1Football: live scoresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F30B192B75379200DFE94F /* 1Football: live scores */ = {
+			isa = PBXGroup;
+			children = (
+				E8F30B1A2B75379200DFE94F /* _Football__live_scoresApp.swift */,
+				E8F30B1C2B75379200DFE94F /* ContentView.swift */,
+				E8F30B1E2B75379400DFE94F /* Assets.xcassets */,
+				E8F30B202B75379400DFE94F /* _Football__live_scores.entitlements */,
+				E8F30B212B75379400DFE94F /* Preview Content */,
+			);
+			path = "1Football: live scores";
+			sourceTree = "<group>";
+		};
+		E8F30B212B75379400DFE94F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8F30B222B75379400DFE94F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8F30B2B2B75379400DFE94F /* 1Football: live scoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F30B2C2B75379400DFE94F /* _Football__live_scoresTests.swift */,
+			);
+			path = "1Football: live scoresTests";
+			sourceTree = "<group>";
+		};
+		E8F30B352B75379400DFE94F /* 1Football: live scoresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F30B362B75379400DFE94F /* _Football__live_scoresUITests.swift */,
+				E8F30B382B75379400DFE94F /* _Football__live_scoresUITestsLaunchTests.swift */,
+			);
+			path = "1Football: live scoresUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8F30B162B75379200DFE94F /* 1Football: live scores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F30B3C2B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scores" */;
+			buildPhases = (
+				E8F30B132B75379200DFE94F /* Sources */,
+				E8F30B142B75379200DFE94F /* Frameworks */,
+				E8F30B152B75379200DFE94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1Football: live scores";
+			productName = "1Football: live scores";
+			productReference = E8F30B172B75379200DFE94F /* 1Football: live scores.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F30B272B75379400DFE94F /* 1Football: live scoresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F30B3F2B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scoresTests" */;
+			buildPhases = (
+				E8F30B242B75379400DFE94F /* Sources */,
+				E8F30B252B75379400DFE94F /* Frameworks */,
+				E8F30B262B75379400DFE94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F30B2A2B75379400DFE94F /* PBXTargetDependency */,
+			);
+			name = "1Football: live scoresTests";
+			productName = "1Football: live scoresTests";
+			productReference = E8F30B282B75379400DFE94F /* 1Football: live scoresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8F30B312B75379400DFE94F /* 1Football: live scoresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F30B422B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scoresUITests" */;
+			buildPhases = (
+				E8F30B2E2B75379400DFE94F /* Sources */,
+				E8F30B2F2B75379400DFE94F /* Frameworks */,
+				E8F30B302B75379400DFE94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F30B342B75379400DFE94F /* PBXTargetDependency */,
+			);
+			name = "1Football: live scoresUITests";
+			productName = "1Football: live scoresUITests";
+			productReference = E8F30B322B75379400DFE94F /* 1Football: live scoresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F30B0F2B75379200DFE94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E8F30B162B75379200DFE94F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E8F30B272B75379400DFE94F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E8F30B162B75379200DFE94F;
+					};
+					E8F30B312B75379400DFE94F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E8F30B162B75379200DFE94F;
+					};
+				};
+			};
+			buildConfigurationList = E8F30B122B75379200DFE94F /* Build configuration list for PBXProject "1Football: live scores" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8F30B0E2B75379200DFE94F;
+			productRefGroup = E8F30B182B75379200DFE94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F30B162B75379200DFE94F /* 1Football: live scores */,
+				E8F30B272B75379400DFE94F /* 1Football: live scoresTests */,
+				E8F30B312B75379400DFE94F /* 1Football: live scoresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8F30B152B75379200DFE94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F30B232B75379400DFE94F /* Preview Assets.xcassets in Resources */,
+				E8F30B1F2B75379400DFE94F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B262B75379400DFE94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B302B75379400DFE94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8F30B132B75379200DFE94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F30B1D2B75379200DFE94F /* ContentView.swift in Sources */,
+				E8F30B1B2B75379200DFE94F /* _Football__live_scoresApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B242B75379400DFE94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F30B2D2B75379400DFE94F /* _Football__live_scoresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F30B2E2B75379400DFE94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F30B392B75379400DFE94F /* _Football__live_scoresUITestsLaunchTests.swift in Sources */,
+				E8F30B372B75379400DFE94F /* _Football__live_scoresUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8F30B2A2B75379400DFE94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F30B162B75379200DFE94F /* 1Football: live scores */;
+			targetProxy = E8F30B292B75379400DFE94F /* PBXContainerItemProxy */;
+		};
+		E8F30B342B75379400DFE94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F30B162B75379200DFE94F /* 1Football: live scores */;
+			targetProxy = E8F30B332B75379400DFE94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E8F30B3A2B75379400DFE94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8F30B3B2B75379400DFE94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E8F30B3D2B75379400DFE94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "1Football: live scores/_Football__live_scores.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1Football: live scores/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F30B3E2B75379400DFE94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "1Football: live scores/_Football__live_scores.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1Football: live scores/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8F30B402B75379400DFE94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scoresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1Football: live scores.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1Football: live scores";
+			};
+			name = Debug;
+		};
+		E8F30B412B75379400DFE94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scoresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1Football: live scores.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1Football: live scores";
+			};
+			name = Release;
+		};
+		E8F30B432B75379400DFE94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scoresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1Football: live scores";
+			};
+			name = Debug;
+		};
+		E8F30B442B75379400DFE94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jpdelgado.-Football--live-scoresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1Football: live scores";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F30B122B75379200DFE94F /* Build configuration list for PBXProject "1Football: live scores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F30B3A2B75379400DFE94F /* Debug */,
+				E8F30B3B2B75379400DFE94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F30B3C2B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F30B3D2B75379400DFE94F /* Debug */,
+				E8F30B3E2B75379400DFE94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F30B3F2B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scoresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F30B402B75379400DFE94F /* Debug */,
+				E8F30B412B75379400DFE94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F30B422B75379400DFE94F /* Build configuration list for PBXNativeTarget "1Football: live scoresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F30B432B75379400DFE94F /* Debug */,
+				E8F30B442B75379400DFE94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F30B0F2B75379200DFE94F /* Project object */;
+}
